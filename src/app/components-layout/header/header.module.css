@@ -1,0 +1,65 @@
+.container_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 13rem;
+    border-bottom: 0.1rem solid var(--color-border);
+
+    position: fixed;
+    width: 100%;
+}
+
+.menu_upbar nav ul{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.menu_upbar nav ul li{
+    font-weight: 500;
+}
+
+.menu_upbar nav ul li a{
+    display: block;
+    padding: 1rem;
+    position: relative;
+}
+.menu_upbar nav ul li a::after{
+    position: absolute;
+    content: "";
+    display: block;
+    height: 0.2rem;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    background-color: #000;
+    transition: 0.5s;
+}
+
+.menu_upbar nav ul li a:hover::after{
+    width: 100%;
+}
+
+
+.menu_sidebar_button{
+    display: block;
+    width: 4rem;
+    border-top: 0.3rem solid #000;
+    color: #000;
+    cursor: pointer;
+
+}
+
+.menu_sidebar_button::after{
+    display: block;
+    content: "";
+    height:0.25rem;
+    width: 80%;
+    margin-left: 20%;
+    background-color: currentColor;
+    margin-top: 0.5rem;
+    
+}
+.menu_sidebar_content{
+    display: none;
+}

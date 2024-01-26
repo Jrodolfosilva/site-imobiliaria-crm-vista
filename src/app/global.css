@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    --color-primary: #EE4C34;
+    --color-secundary:#e5e5e5;
+    --color-title:rgb(27, 27, 34);
+    --color-text:red;
+    --color-border:#e7e7e7;
+    
+}
+
+a{
+    color: var(--color-title);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
