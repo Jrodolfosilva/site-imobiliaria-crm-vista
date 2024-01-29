@@ -1,6 +1,6 @@
-import Link from 'next/link'
+import ButtonToggleMobile from '../utils/button-mobile/button-toggle-mobile'
 import style from './header.module.css'
-
+import Link from 'next/link'
 const ContainerHeader = ()=>{
 
     return(
@@ -12,45 +12,44 @@ const ContainerHeader = ()=>{
                 <nav>
                     <ul>
                         <li>
-                            <Link href="/">Pagina Inicial</Link>
+                            <Link tabIndex={0} href="/">Pagina Inicial</Link>
                         </li>
                         <li>
-                            <Link href="/">Encontre seu Imóvel</Link>
+                            <Link tabIndex={0} href="/">Encontre seu Imóvel</Link>
                         </li>
                         <li>
-                            <Link href="/">Quem somos</Link>
+                            <Link tabIndex={0} href="/">Quem somos</Link>
                         </li>
                         <li>
-                            <Link href="/">Fale conosco</Link>
+                            <Link tabIndex={0} href="/">Fale conosco</Link>
                         </li>
                     </ul>
                 </nav>
             </div>
-            <div className={style.menu_sidebar}>
-                <span className={style.menu_sidebar_button}></span>
-                <div className={style.menu_sidebar_content}>
+            <div className={style.container_sidebar}>
+                <div className={style.container_sidebar_content} id='sidebarContent'>
                     <div>
-                        <h3>Bem-Vindos a Imobiliária</h3>
-                        <span className={style.menu_sidebar_button_close}>X</span>
+                        <h3>Bem-Vindos a Elegance Imóveis</h3>
+                        <ButtonToggleMobile action='close'  idSidebar='sidebarContent'/>
                     </div>
-                    <nav>
+                    <nav className={style.menu_sidebar}>
                         <ul>
                             <li>
-                                <Link href="/">Pagina Inicial</Link>
+                                <Link tabIndex={0} href="/">Pagina Inicial</Link>
                             </li>
                             <li>
-                                <Link href="/">Encontre seu Imóvel</Link>
+                                <Link  tabIndex={0} href="/">Encontre seu Imóvel</Link>
                             </li>
                             <li>
-                                <Link href="/">Quem somos</Link>
+                                <Link tabIndex={0} href="/">Quem somos</Link>
                             </li>
                             <li>
-                                <Link href="/">Fale conosco</Link>
+                                <Link tabIndex={0} href="/">Fale conosco</Link>
                             </li>
                         </ul>
                     </nav>
                 </div>
-               
+                <ButtonToggleMobile idSidebar='sidebarContent' />
             </div>
           
             

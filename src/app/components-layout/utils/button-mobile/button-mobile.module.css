@@ -1,0 +1,59 @@
+.menu_sidebar_button{
+    flex-shrink: 0; 
+    display: block;
+    width: 3rem;
+    border-top: 0.3rem solid #000;
+    color: #000;
+    cursor: pointer;
+   
+}
+
+.menu_sidebar_button::after,.menu_sidebar_button::before{
+    display: block;
+    content: "";
+    height:0.25rem;
+    width: 80%;
+    margin-left: 20%;
+    background-color: currentColor;
+    margin-top: 0.5rem;
+    
+}
+
+.menu_sidebar_button::after{
+    width: 100%;
+    margin-left: 0%;
+}
+
+/*Close Button*/
+
+.menu_sidebar_button_close{
+    flex-shrink: 0; 
+    display: block;
+    width: 3rem;
+    color: #ffffff;
+    cursor: pointer;
+    border-top: 0.3rem solid transparent;
+  
+
+   
+}
+
+.menu_sidebar_button_close::after,.menu_sidebar_button_close::before{
+    display: block;
+    content: "";
+    height:0.25rem;
+    width: 100%;
+    background-color: currentColor;
+    margin-top: 0.5rem;
+    
+}
+
+.menu_sidebar_button_close::after{
+    transform: rotate(130deg);
+    margin-top: -2.5px;
+}
+
+.menu_sidebar_button_close::before{
+    transform: rotate(-130deg);
+    margin: 0px;
+}

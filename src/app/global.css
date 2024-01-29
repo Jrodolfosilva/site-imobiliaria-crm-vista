@@ -4,16 +4,16 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    --color-primary: #EE4C34;
-    --color-secundary:#e5e5e5;
+    --color-primary: #0E2E50;
+    --color-secudary:#fff;
     --color-title:rgb(27, 27, 34);
-    --color-text:red;
-    --color-border:#e7e7e7;
-    
+    --color-text:rgb(77, 77, 77);
+    --color-border:#fafafa;
+
 }
 
 a{
-    color: var(--color-title);
+    color:inherit;
 }
 
 html{
@@ -22,4 +22,19 @@ html{
 
 body{
     font-size: 1.6rem;
+}
+
+
+
+section{
+    height: 100vh;
+}
+
+
+
+.active-menu{
+    display: block;
+    width: 100vw;
+    
+
 }
