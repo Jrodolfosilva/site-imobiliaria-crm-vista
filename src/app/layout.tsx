@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
-import "./global.css"
-import ContainerHeader from "./components-layout/header/header";
 import {Poppins} from 'next/font/google'
+import ContainerHeader from "./components-layout/header/header";
+import "./global.css"
+import ReactQueryClientProvider from "./react-query/reactQueryProvider";
+
+
 export const metadata: Metadata = {
   title: "Imobiliária",
   description: "Imóveis de Alto Padão",
 
 };
+
 const poppins = Poppins({
    subsets: ['latin'],
    weight: ['400','500','600','700'],
@@ -14,16 +18,21 @@ const poppins = Poppins({
    display: 'swap'
    })
 
+
 export default function RootLayout({children}: Readonly<{ children: React.ReactNode;}>) {
 
   return (
-    <html lang="pt-BR">
+    <ReactQueryClientProvider>
+       <html lang="pt-BR">
       <body className={poppins.className}>
         <ContainerHeader/>
         <main>
           {children}
         </main>
       </body>
-    </html>
-  );
+     </html>
+    </ReactQueryClientProvider>
+     
+  )
+    
 }
