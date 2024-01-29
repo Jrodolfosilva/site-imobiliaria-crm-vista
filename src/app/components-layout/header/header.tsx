@@ -6,7 +6,7 @@ const ContainerHeader = ()=>{
     return(
         <header className={style.container_header}>
             <Link href="/" className={style.logo_header}>
-                <img src="./header-logo.svg" alt="LOGO" />
+                <img src="./logo-elegance-imoveis.svg" alt="LOGO" />
             </Link>
             <div className={style.menu_upbar}>
                 <nav>

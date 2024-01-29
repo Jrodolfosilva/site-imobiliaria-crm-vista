@@ -35,6 +35,12 @@ section{
 .active-menu{
     display: block;
     width: 100vw;
-    
-
 }
+
+@media (min-width:1024px) {
+    .active-menu{
+        width: 20vw;
+    } 
+}
+
+

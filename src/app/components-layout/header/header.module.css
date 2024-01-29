@@ -7,6 +7,7 @@
     background-color: #ffffff;
     position: fixed;
     width: 100%;
+    min-height: 8rem;
     z-index: 9;
 }
 
@@ -31,7 +32,7 @@
     right: 0%;
     transition: 0.5s ease-in-out;
     background-color:var(--color-primary);
-     color: #ffffff;
+    color: #ffffff;
 }
 
 .container_sidebar_content div{
@@ -55,12 +56,11 @@
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
-    align-items: center;
 }
 
 .menu_sidebar ul li a{
     display: flex;
-    padding: 1.5rem ;
+    padding: 1.6rem ;
 
 }
 
@@ -90,6 +90,7 @@
     display: block;
     padding: 1rem;
     position: relative;
+    font-size: 1.4rem;
 }
 .menu_upbar nav ul li a::after{
     position: absolute;
@@ -99,7 +100,7 @@
     left: 0;
     bottom: 0;
     width: 0%;
-    background-color: #000;
+    background-color: var(--color-primary);
     transition: 0.5s;
 }
 
