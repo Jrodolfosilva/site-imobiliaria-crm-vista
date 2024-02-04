@@ -1,6 +1,7 @@
 .container_slide_superDestaque .slide{
     display: block;
-    padding-top: 8rem;
-    height: 85vh;
-    background-color: yellow;
+    height:40vh;
+    background-color: var(--color-primary);
+    padding: 9rem 13rem;
 }
+

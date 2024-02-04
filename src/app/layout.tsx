@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
 import {Poppins} from 'next/font/google'
 import ContainerHeader from "./components-layout/header/header";
-import "./global.css"
 import ReactQueryClientProvider from "./react-query/reactQueryProvider";
+import "./global.css"
 
 
 export const metadata: Metadata = {
   title: "Imobiliária",
   description: "Imóveis de Alto Padão",
-
 };
 
 const poppins = Poppins({
@@ -17,7 +16,6 @@ const poppins = Poppins({
    style: ['normal', 'italic'],
    display: 'swap'
    })
-
 
 export default function RootLayout({children}: Readonly<{ children: React.ReactNode;}>) {
 
