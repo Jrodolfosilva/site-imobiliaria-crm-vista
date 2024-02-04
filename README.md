@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Site Imobiliário com Integração via CRM Vista
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-9cf?style=for-the-badge&logo=next.js)
+![CSS Module](https://img.shields.io/badge/CSS_Module-blue?style=for-the-badge&logo=css3)
+![Express](https://img.shields.io/badge/Express.js-grey?style=for-the-badge&logo=express)
+![React Query](https://img.shields.io/badge/React_Query-orange?style=for-the-badge&logo=react)
 
-First, run the development server:
+Este projeto é um SITE IMOBILIÁRIO desenvolvido com Next.js, CSS Module, Express, React Query e integração com o CRM Vista.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Visão Geral
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O site foi criado para fornecer uma plataforma de imobiliária completa, com integração direta com o CRM Vista. Ele oferece uma experiência fluida e intuitiva para usuários em busca de imóveis.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Integração com CRM Vista:** Os dados dos imóveis e clientes são integrados diretamente com o CRM Vista, garantindo sincronização em tempo real e facilitando a gestão de propriedades.
+- **Design Responsivo:** O site é responsivo, adaptando-se a diversos dispositivos, desde desktops até dispositivos móveis, proporcionando uma experiência consistente.
+- **Utilização de CSS Module:** Estilos modulares fornecem encapsulamento e facilitam a manutenção do código CSS.
+- **Utilização do React Query:** O React Query simplifica o gerenciamento de dados assíncronos, facilitando a obtenção e atualização de dados da API.
+- **Rotas Dinâmicas com Next.js:** As rotas dinâmicas fornecidas pelo Next.js permitem a criação de páginas dinâmicas para cada imóvel, facilitando a navegação do usuário.
 
-## Learn More
+## Como Usar
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone este repositório: `git clone https://github.com/seu-usuario/site-imobiliaria-vista.git`
+2. Instale as dependências: `npm install`
+3. Configure as variáveis de ambiente necessárias para a integração com o CRM Vista.
+4. Inicie o servidor de desenvolvimento: `npm run dev`
+5. Acesse o site em seu navegador: `http://localhost:3000`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tecnologias Utilizadas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Next.js:** Framework React para renderização do lado do servidor e criação de aplicativos da web modernos.
+- **CSS Module:** Estilização com CSS modular para encapsulamento e fácil manutenção.
+- **Express:** Framework web para Node.js utilizado para criar APIs RESTful.
+- **React Query:** Biblioteca para gerenciamento de dados assíncronos no React.
+- **Integração com CRM Vista:** Integração com o CRM Vista para gestão de propriedades e clientes.
 
-## Deploy on Vercel
+## Autor
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Rodolfo Silva 🚀
