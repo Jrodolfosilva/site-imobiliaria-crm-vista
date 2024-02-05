@@ -1,5 +1,6 @@
 import FilterProperty from "./components-layout/filter-property/filter-property";
 import SlideSuperDestaque from "./components-layout/utils/slide-home-sdestaque/super-destaque";
+import FeaturedZone from "./components-layout/Featured-zone/featured-zone"
 import style from "./home.module.css";
 
 
@@ -9,6 +10,7 @@ export default function Home() {
     <section className={style.container_home}>
         <SlideSuperDestaque/>
         <FilterProperty redirect={true} />
+        <FeaturedZone/>
         
     </section>
   );

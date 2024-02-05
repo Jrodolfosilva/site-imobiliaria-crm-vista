@@ -1,0 +1,44 @@
+.container_featured_zone{
+    padding: 3rem;
+    text-align: center;
+}
+
+.container_featured_zone div{
+    margin-top: 2rem;
+}
+
+
+.container_list_zone{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.container_zone{
+    position: relative;
+    display: block;
+    padding: 0;
+    width: auto;
+    height: 250px;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.container_zone img{
+    width: fit-content;
+    transition: .5s;
+}
+
+.container_zone img:hover{
+    transform: scale(1.2);
+}
+
+.container_zone span{
+    position: absolute;
+    top: 0.4rem;
+    right:0;
+    padding: 0.3rem 0.6rem;
+    background-color: var(--color-primary);
+    font-size: 1.6rem;
+    color: var(--color-secudary);
+}
