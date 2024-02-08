@@ -1,6 +1,6 @@
 .container_featured_zone{
     padding: 3rem;
-    text-align: center;
+
 }
 
 .container_featured_zone div{
@@ -25,7 +25,6 @@
 }
 
 .container_zone img{
-    width: fit-content;
     transition: .5s;
 }
 

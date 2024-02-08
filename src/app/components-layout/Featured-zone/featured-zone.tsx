@@ -51,9 +51,9 @@ const FeaturedZone = ()=>{
                 <Link href="/" className={style.container_zone}>
                     <Image
                     src="/imagem-bairro/noivadomar_1.webp"
+                    alt="Bairro Noiva do Mar"
                     width={400}
                     height={250}
-                    alt="Bairro Noiva do Mar"
                     />
                     <span>Noiva do Mar</span>
                 </Link>

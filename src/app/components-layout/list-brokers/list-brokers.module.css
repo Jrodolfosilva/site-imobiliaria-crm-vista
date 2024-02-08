@@ -1,0 +1,7 @@
+.container_brokers{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 6rem 3rem;
+}
+

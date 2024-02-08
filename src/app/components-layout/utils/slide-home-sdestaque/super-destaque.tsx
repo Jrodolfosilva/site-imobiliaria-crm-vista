@@ -6,7 +6,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css';
 import style from "./super-destaque.module.css"
-import { useQuery } from "react-query";
 
 
 interface superDestaque { 
@@ -47,18 +46,11 @@ const superDestaqueAPI = [
     
   ]
 
-const GetSuperDestaques = async()=>{
-    const res = await fetch("https://jsonplaceholder.typicode.com/todos/50").then((res)=>res.json())
-
-    return res
-}
 
 const SlideSuperDestaque  = ()=>{
 
 
-  const {data,isError} = useQuery(['superDestaque'],()=>GetSuperDestaques())
  
-  console.log(data)
     return(
         <Swiper navigation={true} loop={true} modules={[Navigation,Pagination]}  className={style.container_slide_superDestaque}>
             {

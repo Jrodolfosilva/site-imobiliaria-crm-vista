@@ -1,3 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    images:{
+        formats:['image/webp','image/avif']
+    }
+};
 export default nextConfig;

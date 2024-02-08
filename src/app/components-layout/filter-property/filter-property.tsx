@@ -16,7 +16,7 @@ const BairroXangri = [
 let initFilter = {
     Tipo:"",
     BairroXangri: "",
-    Condominio:[""],
+    Condominio:"",
     Dormitorio:0,
     PrecoMIN:0,
     PrecoMAX:0,
@@ -38,14 +38,7 @@ const FilterProperty = (redirect:Props)=>{
 
     function handleSubmit(Event:React.FormEvent<HTMLFormElement>){
          Event.preventDefault()
-         console.log(valueFilter)
-
-         if(redirect){
-           //Logica para redirecionar 
-         }
-         else{
-            //Chama o fetch
-         }
+      
     }
 
     return(
@@ -110,7 +103,7 @@ const FilterProperty = (redirect:Props)=>{
                 <label htmlFor="PrecoMIN">
                     <p>Preço MIN</p>
                     <select name="PrecoMIN"  id="PrecoMIN" value={valueFilter.PrecoMIN} onChange={(Event)=>handleValueFilter(Event)}>
-                        <option value="" disabled> Selecione </option>
+                        <option value="" disabled> Selecione</option>
                         <option  key={1} value={200000} > R$ 200.000,00 </option>
                         <option  key={2} value={300000} >R$ 300.000,00</option>
                         <option  key={3} value={400000} >R$ 400.000,00</option>
@@ -124,7 +117,8 @@ const FilterProperty = (redirect:Props)=>{
                 <label htmlFor="PrecoMAX">
                     <p>Preço MAX</p>
                     <select name="PrecoMAX" id="PrecoMAX" value={valueFilter.PrecoMAX} onChange={(Event)=>handleValueFilter(Event)}>
-                    <option  key={1} value={200000} > R$ 400.000,00 </option>
+                        <option value="" disabled> Selecione</option>
+                        <option  key={1} value={200000} > R$ 400.000,00 </option>
                         <option  key={2} value={300000} >R$ 600.000,00</option>
                         <option  key={3} value={800000} >R$ 800.000,00</option>
                         <option  key={4} value={900000} >R$ 900.000,00</option>
