@@ -1,0 +1,46 @@
+.container_ctaHome{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-image: url('/cta-bg-home.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 3rem;
+}
+
+.container_ctaHome div:first-child h2{
+
+    margin-top: 3rem;
+}
+
+.container_ctaHome div:last-child{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.container_ctaHome div:last-child a{
+    display: block;
+    padding: 1.2rem 3rem;
+    width: 80%;
+    max-width: 26rem;
+    border-radius: 0.6rem;
+    font-size: inherit;
+    font-weight: 500;
+}
+
+.container_ctaHome div:last-child a:first-child{
+    background-color: var(--color-primary);
+   
+}
+
+.container_ctaHome div:last-child a:last-child{
+    background-color: rgba(230, 230, 230, 0.499);
+   
+}

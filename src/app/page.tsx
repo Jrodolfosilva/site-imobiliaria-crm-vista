@@ -3,6 +3,7 @@ import SlideSuperDestaque from "./components-layout/utils/slide-home-sdestaque/s
 import FeaturedZone from "./components-layout/Featured-zone/featured-zone"
 import style from "./home.module.css";
 import ListBrokers from "./components-layout/list-brokers/list-brokers";
+import CTAHome from "./components-layout/cta-home/cta-home";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <FilterProperty redirect={true} />
         <FeaturedZone/>
         <ListBrokers/>
+        <CTAHome/>
     </section>
   );
 }
