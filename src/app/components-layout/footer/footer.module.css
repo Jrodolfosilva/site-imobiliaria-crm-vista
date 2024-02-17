@@ -1,0 +1,27 @@
+.container_footer{
+    background-color: var(--color-primary);
+    padding: 6rem 3rem;
+    color: #fff;
+}
+.container_footer div{
+    border-bottom: 0.1rem solid #1f4b79;
+    padding: 3rem 0rem;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.list li{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 1.5rem;
+}
+
+.list_inline{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+   

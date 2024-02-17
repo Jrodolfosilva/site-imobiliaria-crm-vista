@@ -3,6 +3,7 @@ import {Poppins} from 'next/font/google'
 import ContainerHeader from "./components-layout/header/header";
 import ReactQueryClientProvider from "./react-query/reactQueryProvider";
 import "./global.css"
+import Footer from "./components-layout/footer/footer";
 
 
 export const metadata: Metadata = {
@@ -27,6 +28,7 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
         <main>
           {children}
         </main>
+      <Footer/>
       </body>
      </html>
     </ReactQueryClientProvider>
