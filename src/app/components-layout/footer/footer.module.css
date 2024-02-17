@@ -5,8 +5,18 @@
 }
 .container_footer div{
     border-bottom: 0.1rem solid #1f4b79;
-    padding: 3rem 0rem;
+    padding: 1.5rem 0rem;
 }
+
+.container_footer h5{
+    font-size: 1.6rem;
+    margin: 2rem 0rem 1rem 0;
+}
+
+.container_footer p{
+    font-size: 1.4rem;
+}
+
 .list{
     display: flex;
     flex-direction: column;
@@ -23,5 +33,6 @@
     display: flex;
     align-items: center;
     gap: 1.5rem;
+    margin: 1.5rem 0rem;
 }
    

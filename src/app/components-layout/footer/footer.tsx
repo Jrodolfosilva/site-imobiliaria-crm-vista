@@ -22,16 +22,16 @@ const Footer = ()=>{
                     <li>
                         <Image
                         src="/instagram.svg"
-                        width={16}
-                        height={16}
+                        width={32}
+                        height={32}
                         alt=''
                         />
                     </li>
                     <li>
                         <Image
                             src="/facebook.svg"
-                            width={16}
-                            height={16}
+                            width={32}
+                            height={32}
                             alt=''
                             />
                     </li>
