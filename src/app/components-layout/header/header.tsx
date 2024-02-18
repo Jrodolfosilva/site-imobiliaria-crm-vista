@@ -15,13 +15,13 @@ const ContainerHeader = ()=>{
                             <Link tabIndex={0} href="/">Pagina Inicial</Link>
                         </li>
                         <li>
-                            <Link tabIndex={0} href="/">Encontre seu Imóvel</Link>
+                            <Link tabIndex={0} href="/imoveis">Encontre seu Imóvel</Link>
                         </li>
                         <li>
-                            <Link tabIndex={0} href="/">Quem somos</Link>
+                            <Link tabIndex={0} href="/sobre-nos">Quem somos</Link>
                         </li>
                         <li>
-                            <Link tabIndex={0} href="/">Fale conosco</Link>
+                            <Link tabIndex={0} href="/contato">Fale conosco</Link>
                         </li>
                     </ul>
                 </nav>
