@@ -1,6 +1,6 @@
 {
   "name": "imobiliariacrm",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "server": "ts-node src/app/api/server.js",
