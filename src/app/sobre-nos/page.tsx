@@ -1,4 +1,3 @@
-import ListBrokers from "../components-layout/list-brokers/list-brokers"
 import style from "./sobre-nos.module.css"
 
 

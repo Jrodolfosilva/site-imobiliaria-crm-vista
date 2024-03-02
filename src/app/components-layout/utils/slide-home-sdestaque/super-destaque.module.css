@@ -1,7 +1,21 @@
 .container_slide_superDestaque .slide{
     display: block;
-    height:40vh;
+    height:60vh;
     background-color: var(--color-primary);
-    padding: 9rem 13rem;
+    color: var(--color-secudary);
+    position: relative;
+  
 }
+.container_slide_superDestaque .slide img{
 
+
+
+}
+.container_slide_superDestaque .slide h2{
+    position: absolute;
+    top: 35%;
+    text-align: left;
+    font-size: 2rem;
+    padding: 0 3rem;
+    color: var(--color-secudary);
+}

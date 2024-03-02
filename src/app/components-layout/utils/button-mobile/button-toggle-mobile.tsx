@@ -6,7 +6,11 @@ type idContentAction = {
     action?: string
 }
 
-
+function clickAncora (){
+    const component =  document.querySelector("sidebarContent")
+    component?.classList.toggle('active-menu')  
+    
+}
 
 function handleClass(idSidebar:idContentAction){
     const component =  document.querySelector(`#${idSidebar.idSidebar}`)
@@ -14,12 +18,17 @@ function handleClass(idSidebar:idContentAction){
 }
 
  const  ButtonToggleMobile = ({ idSidebar, action }:idContentAction)=>{
+    
+    
     if(action === "close") return <span className={style.menu_sidebar_button_close }  onClick={()=>handleClass({idSidebar})}></span>
     return <span className={style.menu_sidebar_button }  onClick={()=>handleClass({idSidebar})}>{action}</span>
 
 }
 
-export default ButtonToggleMobile
+export {
+    ButtonToggleMobile,
+    clickAncora
+} 
 
 
 

@@ -1,0 +1,30 @@
+.container_form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.container_form label input,.container_form label textarea{
+    width: 100%;
+    border: 0.1rem solid var(--color-border);
+    padding: 1.2rem;
+}
+
+.container_form label input[type="submit"]{
+    background-color: var(--color-primary);
+    color: var(--color-secudary);
+    font-size: 1.6rem;
+    border: none;
+}
+
+.container_form label a{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--color-whatsapp);
+    color: var(--color-secudary);
+    margin-top: 1.5rem;
+    font-size: 1.6rem;
+}
