@@ -1,4 +1,4 @@
-import ContactForm from "../components-layout/contact-form/contact-form"
+import ContactForm from "./contact-form"
 import style from "./fale-conosco.module.css"
 
 const FaleConosco = ()=>{

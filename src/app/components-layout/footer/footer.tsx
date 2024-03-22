@@ -9,7 +9,7 @@ const Footer = ()=>{
         <footer className={style.container_footer}>
             <div>
                 <Image
-                src="/logo-elegance-imoveis.svg"
+                src="/logo-branca.svg"
                 height={100}
                 width={200}
                 alt='Logomarca da Elegance Imóveis'
